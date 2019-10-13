@@ -1,0 +1,60 @@
+body, .siteTitle{
+  margin: 0;
+}
+
+header{
+  background-color: red;
+  height: 80px;
+}
+
+.siteTitle{
+  font-family: Impact;
+}
+
+.articles{
+  padding: 5% 10%;
+  flex-flow: column;
+}
+
+.article{
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.leftArticle{
+  padding-right: 20px;
+}
+
+.userImage{
+  height: 60px;
+  width: 60px;
+}
+
+.rightArticle{
+  width: 100%;
+}
+
+.articleTitle, .articleText{
+  margin: 0;
+}
+
+.upperContent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleData{
+  display: flex;
+}
+
+.postingTime, .userName{
+  margin: 0;
+  font-size: 13px;
+  color: gray;
+  padding-left: 15px;
+}
+
+.articleText{
+  color: gray;
+}
