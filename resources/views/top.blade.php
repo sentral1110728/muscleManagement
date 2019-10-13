@@ -11,9 +11,6 @@
             <header class="header">
                 <h1 class="siteTitle">Muscle Management</h1>
                 <a class="createArticle" href="">記事投稿</a>
-                <ul>
-                    <li><a>新規投稿</a></li>
-                </ul>
             </header>
             <div class="container">
                 <div class="articles">

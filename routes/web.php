@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('top');
-});
+Route::resource('articles', 'ArticleController');
