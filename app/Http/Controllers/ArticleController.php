@@ -6,13 +6,14 @@ use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('top');
     }
-    
+
     public function create()
     {
-        //
+        return view('articleCreate');
     }
 
     public function store(Request $request)

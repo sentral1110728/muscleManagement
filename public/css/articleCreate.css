@@ -1,0 +1,61 @@
+body, .siteTitle{
+  margin: 0;
+}
+
+header{
+  background-color: red;
+  height: 80px;
+}
+
+.siteTitle{
+  font-family: Impact;
+}
+
+.containerBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin : auto;
+}
+
+.title{
+  width: 100%;
+  padding-top: 30px;
+}
+
+.title input[type="text"]{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.content{
+  width: 100%;
+  padding-top: 30px;
+}
+
+.content textarea{
+  width: 100%;
+  height: 300px;
+  font-size: 20px;
+  resize: none;
+}
+
+.buttonList{
+  padding-top: 30px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.sendBtn{
+  width: 100px;
+  margin: 0 5%;
+}
+
+.returnBtn{
+  width: 100px;
+  margin: 0 5%;
+}

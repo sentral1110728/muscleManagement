@@ -10,7 +10,7 @@
         <div class="innerBody">
             <header class="header">
                 <h1 class="siteTitle">Muscle Management</h1>
-                <a class="createArticle" href="">記事投稿</a>
+                <a class="createArticle" href="{{ action('ArticleController@create') }}">記事投稿</a>
             </header>
             <div class="container">
                 <div class="articles">
